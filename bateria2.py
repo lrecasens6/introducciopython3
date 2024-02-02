@@ -15,10 +15,13 @@ else:
 autenticar()
 
 # Exercici2:
-a = 100
-if a < 100:
-        print("El numero és menor que 100.")
-elif a ==100:
-        print("El numero és igual que 100.")
+numero = float(input("Digues un número:"))
+
+if numero < 100:
+    print("El número es menor que 100.")
+elif numero > 100:
+    print("El número es major que 100.")
 else:
-        print("El numero és major que 100.")
+    print("El número es igual a 100.")
+
+
