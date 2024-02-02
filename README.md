@@ -8,4 +8,4 @@ Benvinguts al meu repositori de programes de Python
 
 ## Bateria 1
 
--[Exercici 1](bateria1.py)
+-[Bateria 1](bateria1.py)
