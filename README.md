@@ -12,4 +12,4 @@ Benvinguts al meu repositori de programes de Python
 
 ## Bateria 2
 
--[Bateria 2](bateria2.py
+-[Bateria 2](bateria2.py)
