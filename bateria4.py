@@ -18,3 +18,7 @@ resultat = suma_numeros / quantitat_numeros
 print(resultat)
 
 # Exercici3:
+num = int(input("Fica un numero:"))
+resultat = 0
+for i in range(1, numero + 1, 2):
+print(resultat)
