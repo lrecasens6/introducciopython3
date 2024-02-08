@@ -13,3 +13,11 @@ Benvinguts al meu repositori de programes de Python
 ## Bateria 2
 
 -[Bateria 2](bateria2.py)
+
+## Bateria 3
+
+-[Bateria 3](bateria3.py)
+
+## Bateria 4
+
+-[Bateria 4](bateria4.py)
