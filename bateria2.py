@@ -1,4 +1,4 @@
-# Exercici1:
+# Exercici6:
 autenticació = [
         "nom": "Amilcar",
         "nom": "Sila"
@@ -14,7 +14,7 @@ else:
 
 autenticar()
 
-# Exercici2:
+# Exercici7:
 numero = float(input("Digues un número:"))
 
 if numero < 100:
@@ -24,14 +24,14 @@ elif numero > 100:
 else:
     print("El número es igual a 100.")
 
-# Exercici3:
+# Exercici8:
 num = int(input("Digues un número:"))
 if numero % 2 == 0:
     print(numero, "és un número parell.")
 else:
     print(numero, "és un número senar.")
 
-# Exercici4:
+# Exercici9:
 nota = float(input("Introdueix la teva nota:"))
 if nota >= 1 and nota <= 4:
     resultat = "Insuficient"
@@ -45,7 +45,7 @@ elif nota >= 9 and nota <= 10:
     resultat = "Excel·lent"
 print("La teva nota és", nota, "i el resultat és:", resultat)
 
-# Exercici5:
+# Exercici10:
 anys_programador = int(input("Quants anys portes treballant com a programador?"))
 if anys_programador < 5:
     print("Ets un programador junior.")
