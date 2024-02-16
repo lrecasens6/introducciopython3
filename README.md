@@ -21,3 +21,7 @@ Benvinguts al meu repositori de programes de Python
 ## Bateria 4
 
 -[Bateria 4](bateria4.py)
+
+## Bateria 5
+
+-[Bateria 5](bateria5.py)
