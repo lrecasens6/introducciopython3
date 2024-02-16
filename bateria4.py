@@ -1,10 +1,10 @@
-# Exercici1:
+# Exercici16:
 num = int(input("Fica un numero:"))
 for i in range(1,num+1):
     if num % i == 0:
         print(i)
 
-# Exercici2:
+# Exercici17:
 resultat = 0
 suma_numeros = 0
 quantitat_numeros = 0
@@ -17,7 +17,7 @@ while True:
 resultat = suma_numeros / quantitat_numeros
 print(resultat)
 
-# Exercici3:
+# Exercici18:
 num = int(input("Fica un numero:"))
 resultat = 0
 for i in range(1, numero + 1, 2):
