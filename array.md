@@ -30,3 +30,4 @@ comunitat.remove(Aragorn)
 print(comunitat[0])
 comunitat.remove(Arwen)
 # 7-Afegeix "Arwen" a la llista y mostra la llista ordenada alfabèticament:
+
