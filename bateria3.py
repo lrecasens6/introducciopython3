@@ -1,24 +1,24 @@
-# Exercici1:
+# Exercici11:
 num = int(input("Digues un número: "))
 print("Taula de multiplicar de", num, ":")
 for i in range(1, 11):
     resultat = num * i
     print(num, "x", i, "=", resultat)
 
-# Exercici2:
+# Exercici12:
 num = int(input("Digues un número: "))
 suma = 0
 for i in range(1, num + 1):
 print("La suma dels números fins a", num, "és:", suma)
 
-# Exercici3:
+# Exercici13:
 num = int(input("Introdueix un número: "))
 suma = 0
 for i in range(1, num + 1):
     if i % 2 == 0:  
 print("La suma dels números parells fins a", num, "és:", suma)
 
-#Exercici4:
+#Exercici14:
 num = int(input("Introdueix un número: "))
 opcio = input("Vols sumar números parells o senars")
 suma = 0
@@ -33,7 +33,7 @@ elif opcio == "Senar":
 else:
     print("Opció invàlida.")
 
-#Exercici5:
+#Exercici15:
 def primer(num):
     if num <= 1:
         return False
