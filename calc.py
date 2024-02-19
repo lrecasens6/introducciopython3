@@ -9,6 +9,7 @@ while True:
     break
 
     opcio = int(input("Introdueix un numero de les seguents opcions:"))
+
     if opcio == 0:
         print("Chao chao chao")
         break
@@ -18,6 +19,19 @@ while True:
 
         if opcio == 1:
             suma = num1 + num2
-            print("La suma del "num1" "+" "num2" es suma")
-            
+            print("La resta de", num1, "+", num2, "es:", suma)
+        if opcio == 2:
+            resta = num1 - num2
+            print("La resta de", num1, "-", num2, "es:", resta)
+        if opcio == 3:
+            multiplicacion = num1 * num2
+            print("La multiplicació de", num1, "*", num2, "és:", multiplicacion)
+        if opcio == 4:
+            if num2 != 0:
+                division = num1 / num2
+                print("La divisió de", num1, "/", num2, "és:", division)
+            else:
+                print("La divisio de 0 es: Infinit")
+        else:
+            print("Opció no vàlida. Si us plau, introduïu una opció vàlida.")
       
