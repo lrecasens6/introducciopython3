@@ -18,4 +18,6 @@ while True:
 
         if opcio == 1:
             suma = num1 + num2
-            print("La suma del "num1" "+" "num2" es "suma" ")
+            print("La suma del "num1" "+" "num2" es suma")
+            
+      
