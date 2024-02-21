@@ -25,3 +25,6 @@ Benvinguts al meu repositori de programes de Python
 ## Bateria 5
 
 -[Bateria 5](bateria5.py)
+
+## Calculadora
+-[Calc](calc.py)
