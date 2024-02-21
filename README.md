@@ -26,5 +26,14 @@ Benvinguts al meu repositori de programes de Python
 
 -[Bateria 5](bateria5.py)
 
+## For
+
+-[For](for.py)
+
+## Array
+
+-[Array](array.py)
+
 ## Calculadora
--[Calc](calc.py)
+
+-[Calculadora](calc.py)
