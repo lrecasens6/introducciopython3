@@ -32,3 +32,34 @@ while True: # main game loop
     pygame.draw.rect(pantalla, VERD, rectangle4)
     pygame.draw.rect(pantalla, VERMELL, rectangle5)
     pygame.display.update()
+
+#2- Fes un programa que dibuixi aquesta finestra:
+import pygame, sys
+from pygame.locals import *
+
+AMPLE = 600
+ALT = 600
+TAMANY = (AMPLE,ALT)
+NEGRE = (0,0,0)
+VERMELL = (255,0,0)
+BLANC = (255,255,255)
+VERD = (0,255,0)
+BLAU = (0,0,255)
+GROC = (255,255,0)
+pygame.init()
+pantalla = pygame.display.set_mode(TAMANY)
+pygame.display.set_caption('Formes')
+while True: # main game loop
+    for event in pygame.event.get():
+        if event.type == QUIT:
+            pygame.quit()
+            sys.exit()
+
+    pantalla.fill(BLANC)
+
+    rectangle1 = pygame.draw.rect(pantalla, BLAU, (0,0,600,600),250)
+    cercle2 = pygame.draw.circle(pantalla, VERMELL, (300,300), 300)
+    triangle3 = pygame.draw.polygon(pantalla, GROC, ((300,50),(150,550),(500,550)), width=0)
+    pygame.display.update()
+
+#3- Fes un programa que dibuixi una cara:
