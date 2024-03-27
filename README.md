@@ -37,3 +37,15 @@ Benvinguts al meu repositori de programes de Python
 ## Calculadora
 
 -[Calculadora](calc.py)
+
+## Excepcions
+
+-[Excepcions](excepcions.py)
+
+## Aleatori
+
+-[Aleatori](aleatori.py)
+
+## Asteriscs
+
+-[Asteriscs](asteriscs.py)
